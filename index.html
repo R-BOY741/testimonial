@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leratos Testimonial</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="container">
+        <div class="image">
+          <img
+            src="./images/175061958_2924766757800242_6823213577342740071_n.jpg"
+            alt=""
+          />
+        </div>
+        <div class="text">
+          <h2>Kamogelo Mkonto</h2>
+          <h3>customer</h3>
+          <i>
+            <q>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              accusantium omnis et laboriosam illum architecto reiciendis. Eos
+              voluptate officia cumque soluta ex similique temporibus cupiditate
+              architecto suscipit.
+            </q>
+          </i>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img
+            src="./images/67801114_477475303068358_6752172395903057920_n.jpg"
+            alt=""
+          />
+        </div>
+        <div class="text">
+          <h2>Vuyani Kunelisi</h2>
+          <h3>college</h3>
+          <i>
+            <q>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
+              perferendis amet libero natus repellat, tenetur impedit sit id
+              eius optio omnis labore ipsam. Quia quo, repellat eum
+              necessitatibus fugiat qui.
+            </q>
+          </i>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img
+            src="./images/82902123_637609340333625_262498380972818432_n.jpg"
+            alt=""
+          />
+        </div>
+        <div class="text">
+          <h2>Lerato Kanogoiwa</h2>
+          <h3>Myself</h3>
+          <i>
+            <q>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              quos quam commodi sit odit ducimus minima. Ut unde ab nulla
+              tenetur, minima consequatur odio cum voluptates omnis sed corporis
+              iusto.
+            </q>
+          </i>
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+          center: true,
+          responsive: {
+            0: {
+              items: 1,
+              margin: 0,
+              stagePadding: 0,
+            },
+            300: {
+              items: 1,
+              margin: 10,
+              stagePadding: 10,
+            },
+            800: {
+              items: 1,
+              margin: 20,
+              stagePadding: 20,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
